@@ -1,0 +1,13 @@
+.container{
+	width: 980px;
+	margin: 0 auto;
+    padding: 0px 10px;
+}
+
+
+/*-------Header----------*/
+.header{
+    background: url('../images/header.jpg')no-repeat center center;
+    background-size: cover;
+    height: 1000px;
+}
