@@ -134,7 +134,43 @@
 .main-block{
     padding: 100px 0px;
     position: relative;
+    text-align: center;
 }
+.blocks__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color:#212121;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.blocks__text{
+    color:#767676;
+    width: 85%;
+    margin: auto;
+    line-height: 1.5;
+    margin-top: 35px;
+}
+.line-block:after{
+    content: " ";
+    background-color: #fec200;
+    width: 5%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+}
+.line-block:before{
+    content: " ";
+    background-color: #fec200;
+    width: 15%;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/*---
 .main-block__wrap:before{
     content: " ";
     position: absolute;
