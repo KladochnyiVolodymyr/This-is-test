@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    if (screen.width > 993) {
+    if ($(window).width() > 993 ) {
         $('.header-content_right').animate({left:'60%', opacity: 1},1500);
         $('.header-content_left').animate({right:'40%', opacity: 1},1500);
     }
-    else if(screen.width < 993) {
+    else if($(window).width() < 993 ) {
         $('.header-content_right').animate({left:'50%', opacity: 1},1500);
         $('.header-content_left').animate({right:'50%', opacity: 1},1500);
     }
