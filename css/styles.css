@@ -47,6 +47,23 @@
 .header__logo{
     display: inline-block;
 }
+.header__logo_text{
+    font-family: 'Roboto', sans-serif;
+    color:#fec200;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 40px;
+    text-decoration: none;    
+}
+.header__logo_text:after{
+    content: " ";
+    background-color: #fec200;
+    height: 5px;
+    width: 50%;
+    display: block;
+    margin-top: 10px;
+}
 .nav__list{
    background-color: #fec200;
    padding: 0px 15px 0px 0px;
