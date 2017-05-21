@@ -36,11 +36,13 @@
 }
 .header-content_left{
     position: absolute;
-    right: 40%;
+    right: 0%;
+    opacity: 0;
 }
 .header-content_right{
      position: absolute;
-     left: 60%;
+     left: 0%;
+     opacity: 0;
 }
 .header__logo{
     display: inline-block;
@@ -116,6 +118,9 @@
     text-transform: uppercase;
     font-weight: bold;
     padding: 0px 0px 10px 10px;
+}
+.title_top_right{
+    opacity: 0;
 }
 .title-border:before{
     content: "";
