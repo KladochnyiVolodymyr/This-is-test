@@ -30,7 +30,3 @@ $( ".form__button").click(function() {
     var $block = $(".form__button_sending");
     $block.css({visibility:"visible"});
 });
-
-$(function(){
-		$('nav__list').slicknav();
-	});
