@@ -216,6 +216,9 @@
 .blocks__text_form{
     padding-bottom: 100px;
 }
+.form{
+    opacity: 0;
+}
 .form__input{
     display: block;
     background: transparent;
@@ -232,10 +235,8 @@
 .form__input:focus{
     border-color: #fec200;
 }
-.form__input_email:valid{
-    background-image: url('../images/check.png');
-    background-position: right top;
-    background-repeat: no-repeat;
+.form__input:valid{
+   
 }
 .form__button{
     font-family: 'Roboto', sans-serif;

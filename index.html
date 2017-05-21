@@ -101,10 +101,10 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna aliqua
             </p>
             <form class="form">
-                <input class="form__input" type="text" placeholder="Name">
+                <input class="form__input" type="text" name="username" placeholder="Name" required pattern="\w+">
                 <input class="form__input form__input_email" type="email" placeholder="Email" required>
-                <input class="form__input" type="tel" placeholder="Phone">
-                <textarea class="form__input" rows="8">Message</textarea>
+                <input class="form__input" type="tel" placeholder="Phone" required pattern="[0-9]{10,12}">
+                <textarea class="form__input" rows="8" required pattern="\w+" placeholder="Message"></textarea>
                 <input class="form__button" type="submit" value="Send Message">
             </form>
         </div>
