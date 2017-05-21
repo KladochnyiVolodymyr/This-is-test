@@ -16,5 +16,5 @@ $(document).ready(function() {
 });
 $( ".form__button").click(function() {
     var $block = $(".form__button_sending");
-    $block.show();
+    $block.css({visibility:"visible"});
 });
