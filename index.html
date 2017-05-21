@@ -94,19 +94,22 @@
         </div>
     </div>
     <div class="form-block">
-        <div class="container">
-            <h2 class="blocks__title blocks__title_form">Connect with us</h2>
-            <div class="line-block"></div>
-            <p class="blocks__text blocks__text_form">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna aliqua
-            </p>
-            <form class="form">
-                <input class="form__input" type="text" name="username" placeholder="Name" required pattern="\w+">
-                <input class="form__input form__input_email" type="email" placeholder="Email" required>
-                <input class="form__input" type="tel" placeholder="Phone" required pattern="[0-9]{10,12}">
-                <textarea class="form__input" rows="8" required pattern="\w+" placeholder="Message"></textarea>
-                <input class="form__button" type="submit" value="Send Message">
-            </form>
+        <div class="form-block_wrap">
+            <div class="container">
+                <h2 class="blocks__title blocks__title_form">Connect with us</h2>
+                <div class="line-block"></div>
+                <p class="blocks__text blocks__text_form">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna aliqua
+                </p>
+                <form class="form">
+                    <input class="form__input" type="text" name="username" placeholder="Name" required pattern="\w+">
+                    <input class="form__input form__input_email" type="email" placeholder="Email" required>
+                    <input class="form__input" type="tel" placeholder="Phone" required pattern="[0-9]{10,12}">
+                    <textarea class="form__input form__input_text" rows="8" required pattern="\w+" placeholder="Message"></textarea>
+                    <div class="form__button_sending">Sending...</div>
+                    <input class="form__button" type="submit" value="Send Message">
+                </form>
+            </div>
         </div>
     </div>
     <script src="js/jquery-3.2.1.min.js"></script>
