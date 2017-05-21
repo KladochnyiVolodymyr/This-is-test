@@ -20,12 +20,13 @@
 	.container{
 		width: 95%;
 	}
+	.header-bg_left, .header-bg_right{
+		width: 50%;
+	}
 	
 }
 
 @media screen and (max-width: 479px) and (min-width: 320px) {
-	.container{
-		width: 95%;
-	}
+
 	
 }

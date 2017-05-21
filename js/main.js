@@ -7,6 +7,11 @@ $(document).ready(function() {
         $('.header-content_right').animate({left:'50%', opacity: 1},1500);
         $('.header-content_left').animate({right:'50%', opacity: 1},1500);
     }
+    else if($(window).width() < 769 ) {
+        $('.header-title_right').animate({left:'50%', opacity: 1},1500);
+        $('.header-title_left').animate({right:'50%', opacity: 1},1500);
+    }
+
 
         /* Every time the window is scrolled ... */
         $(window).scroll( function(){
@@ -25,3 +30,7 @@ $( ".form__button").click(function() {
     var $block = $(".form__button_sending");
     $block.css({visibility:"visible"});
 });
+
+$(function(){
+		$('nav__list').slicknav();
+	});
