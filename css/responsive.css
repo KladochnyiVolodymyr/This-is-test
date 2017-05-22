@@ -66,9 +66,9 @@
 		padding-bottom: 45px;
 	}
 	.form__input{
-		width: 80%;
+		width: 90%;
 	}
 	.form__button{
-		width: 90%;
+		width: 100%;
 	}
 }
