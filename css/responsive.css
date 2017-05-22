@@ -29,12 +29,9 @@
 	}
 }
 @media screen and (max-width: 769px){
-	/**- -**/
 	.header{
 		padding-top: 15px;
 	}
-	/**- -**/
-	/**- Top Nav -**/
 	.header-wrap__nav{
 		position: absolute;
     	top: 15px;
@@ -46,7 +43,8 @@
 	}
 	label.nav-bar__toggle{
 		display: inline-block;
-		right: 10px;
+		right: 15px;
+		top: 5px;
    		position: absolute;
 	}
 	.nav-bar__toggle + label .fa-times{
@@ -81,7 +79,6 @@
 	.nav__link_right{
 		color: #000;
 	}
-	/**- END Top Nav -**/
 }
 @media screen and (max-width: 769px) and (min-width: 480px) {
 	.container{
@@ -124,10 +121,6 @@
 	.header-content_right.animation-completed{
 		left: 50% !important;
 	}
-
-
-
-
 	.line-block:before{
 		width: 40%;
 	}
@@ -143,5 +136,14 @@
 	}
 	.form__button{
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.title-border:before{
+		left: 0px;
+	}
+	.title-main{
+		font-size: 38px;
 	}
 }
